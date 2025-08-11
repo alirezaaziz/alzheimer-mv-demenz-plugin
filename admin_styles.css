@@ -1,0 +1,150 @@
+.acf-field[style*="width: 33%"] {
+    width: 33.33% !important;
+}
+
+.acf-field[style*="width: 66%"] {
+    width: 66.66% !important;
+}
+
+.cwd_message p, .cwd_message label {
+	font-size: 16px;
+	line-height: 18px;
+	margin: 0 !important;
+	margin-top: 15px !important;
+	font-weight: normal !important;
+}
+
+.cwd_message .acf-label {
+    margin: 0 !important;
+}
+
+.cwd_message p i, .cwd_message label i{
+	font-size: 14px;
+	line-height: 16px;
+}
+
+#cwd_standorteingabe {
+	padding-top: 40px;
+	padding-left: 25px;
+}
+
+.cwd_disabled {
+	pointer-events: none !important;
+}
+
+.cwd_disabled label {
+    color: rgba(0,0,0,0.5) !important;
+}
+
+.cwd_disabled input {
+    background-color: rgba(0,0,0,0.05) !important;
+    color: rgba(0,0,0,0.5) !important;
+}
+
+.cwd_float_right {
+	float: right !important;
+	clear: none !important;
+}
+
+.cwd_auto_height {
+	min-height: auto !important;
+	clear: none !important;
+}
+
+.row_flex{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.row_item{
+margin-right: 5em;
+}
+
+h4.row_item{
+	margin-top: 2em;
+}
+
+.col_flex{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: flex-start;
+}
+
+
+.form-style-8 input[type="button"], 
+.form-style-8 input[type="submit"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	width: 10em;
+	height: 3em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.form-style-8 input[type="button"]:hover, 
+.form-style-8 input[type="submit"]:hover {
+	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color:#34CACA;
+}
+
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	color:black;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+
+.form-style-8 textarea{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	color:black;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	resize:none;
+	overflow-y: scroll;
+	line-height: 1.5em;
+}
+
+span.error{
+    font-weight: lighter !important;
+    color: red !important;
+}
+
+#footer-thankyou,
+#footer-upgrade{
+	display: none;
+}

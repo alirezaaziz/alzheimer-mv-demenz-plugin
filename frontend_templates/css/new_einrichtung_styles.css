@@ -1,0 +1,322 @@
+.description i {
+	font-style: italic !important;
+}
+
+.cwd_big.cwd_auto_height {
+	line-height: 120%;
+	min-height: 0 !important;
+}
+
+.cwd_float_right {
+    float: right;
+    clear: none !important;
+   	line-height: 120%;
+}
+
+.post-pagination-wrap {
+	display: none !important;
+}
+
+.cwd_icon_info {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    right: -2px;
+    top: 2px;
+    display: none;
+}
+
+#cwd_tooltip_box {
+	display: inline;
+}
+
+.cwd_tool_tip {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 4px;
+    z-index: 2;
+    padding: 10px 15px;
+    min-width: 150px;
+    font-size: 80%; /* 12px */;
+    display: none;
+    line-height: 150%;
+}
+
+.cwd_icon_info:hover + .cwd_tool_tip {
+	display: block;
+}
+
+.acf-field .acf-notice.-error {
+    clear: both;
+}
+
+#cwd_main {
+	padding: 60px 0px;
+	line-height: 1.5;
+	font-size: 16px;
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-weight: 400;
+	color: #333;
+}
+
+#cwd_main_header h1,
+#cwd_main h1 {
+    clear: both;
+    text-align:center;
+}
+
+#cwd_main h2, #cwd_main h3, #cwd_main h4 {
+    clear: both;
+    line-height: 1.4;
+    margin: 0 0 0.75em;
+    padding: 1.5em 0 0;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 0;
+}
+
+#cwd_main select {
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    max-width: 100%;
+}
+
+#cwd_main input[type="text"], #cwd_main input[type="email"], #cwd_main input[type="url"], #cwd_main input[type="number"] {
+	background-color: white;
+	border-radius: 3px; 
+	border-color: #bbb;
+}
+
+#cwd_main input[type="text"]:focus, #cwd_main input[type="email"]:focus, #cwd_main input[type="url"]:focus, #cwd_main input[type="password"]:focus, #cwd_main input[type="search"]:focus, #cwd_main input[type="number"]:focus, #cwd_main input[type="tel"]:focus, #cwd_main textarea:focus {
+    color: #222;
+    border-color: #333;
+}
+
+#cwd_main button, #cwd_main input[type="button"], #cwd_main input[type="submit"] {
+    border-radius: 2px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 800;
+    text-shadow: none;
+    transition: background 0.2s;
+    border-color: #1d71ba !important;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    border-width: 2px !important;
+}
+
+#cwd_main, #cwd_main * {
+	box-sizing: border-box;
+}
+
+.cwd_container {
+	max-width: 1220px;
+	margin: auto;
+	padding: 0 10px;
+}
+
+.acf-field[style*="width: 33%"] {
+    width: 33.33% !important;
+}
+
+.acf-field[style*="width: 66%"] {
+    width: 66.66% !important;
+}
+
+h1 {
+    padding: 0 7px;
+}
+
+#cwd_register_desc {
+    padding: 6vh 12px 0 12px;
+}
+
+#acf-form label {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1em;
+}
+
+#acf-form .cwd_message label,  
+#acf-form .cwd_big > .acf-label label,
+#acf-form .acf-field--post-title label {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+
+.acf-field-group {
+    border: 1px solid #bbb !important;
+    border-radius: 3px;
+    margin: 12px 12px 27px !important;
+    padding: 15px 20px 20px !important;
+}
+
+.acf-field-5b62e47e2a57f {
+    padding-top: 38px !important;
+}
+
+.cwd_italic .description {
+	font-style: italic;
+	margin-top: 2px !important;
+	font-size: 14px;
+}
+
+.acf-field-wysiwyg .mce-statusbar {
+    display: none !important;
+}
+
+.acf-form-submit {
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    padding: 15px 12px;
+    margin: 15px 0;
+}
+
+.cwd_cat_btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #e30613;
+    border-radius: 3px;
+}
+
+.cwd_btn.cwd_cat_btn {
+    background-color: #e30613;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.cwd_btn:hover {
+    background-color: white !important;
+    color: #e30613 !important;
+}
+
+#cwd_search_link {
+    float: right;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 0;
+}
+
+.acf-field-5bac6d80949d9 .acf-label {
+    width: calc(100% - 100px);
+    float: right;
+}
+
+#acf-form .acf-field-5bac6d80949d9 .acf-label label {
+    font-size: 18px;
+    margin: 7px 0;
+}
+
+#acf-form .acf-field-5bac6d80949d9 .description {
+	max-width: 860px;
+}
+
+.acf-switch.-on {
+    background: #e30613 !important;
+	border-color: #e30613 !important;
+}
+
+.acf-switch .acf-switch-on {
+    text-shadow: #e30613 0 1px 0 !important;
+}
+
+.acf-switch.-on .acf-switch-slider {
+    border-color: #e30613 !important;
+}
+
+.acf-switch.-focus.-on .acf-switch-slider {
+       border-color: #e30613 !important;
+}
+
+#cwd_box {
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    padding: 10px;
+    display: none;
+    margin: 0 10px 20px;
+}
+
+#cwd_box::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#cwd_box .acf-field {
+    margin: 0;
+    padding: 10px;
+}
+
+#cwd_muster_box {
+    position: absolute;
+    width: 300px;
+    z-index: 998;
+    background-color: white;
+    font-size: 12px;
+    right: 0;
+    top: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    display: none;
+}
+
+#cwd_muster_close {
+    color: #e30613;
+    font-weight: bold;
+    float: right;
+    border: 2px solid #e30613;
+    border-radius: 100%;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#cwd_muster_close:hover {
+	color: white;
+	background-color: #e30613;
+}
+
+#cwd_muster_show {
+	display: none;
+}
+
+#acf-form .acf-field-5b62dd7b8b364 {
+    border-left: 1px solid #eeeeee !important;
+}
+
+#acf-form .acf-field-5b62dda18b365 {
+    border-left: 1px solid #eeeeee !important;
+}
+
+
+
+/* ---------------- */
+/* RESPONSIVENESS : */
+/* ---------------- */
+
+@media ( max-width: 1320px) {
+	
+	#cwd_main {
+    	padding: 40px 20px;
+	}
+}
+
+@media ( max-width: 720px) {
+	
+	#cwd_main .acf-field {
+		width: 100% !important;
+		min-height: 0 !important;
+	}
+}
