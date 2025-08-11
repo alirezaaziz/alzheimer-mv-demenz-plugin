@@ -165,7 +165,6 @@ class cwd
 		flush_rewrite_rules();
 	}
 
-	// Initialize the Plug-IN! - اضافه کردن متد init()
 	function init()
 	{
 		// ---------------- //
@@ -173,34 +172,13 @@ class cwd
 		// ---------------- //
 
 		if (!class_exists('acf')) {
-
-			// 1. customize ACF path
-			add_filter('acf/settings/path', 'my_acf_settings_path');
-			function my_acf_settings_path($path)
-			{
-				// update path
-				$path = dirname(__FILE__) .  '/libs/acf/';
-				// return
-				return $path;
+			if (!function_exists('get_field')) {
+				add_action('admin_notices', function () {
+					echo '<div class="notice notice-error"><p>Bitte installieren und aktivieren Sie das Plugin „Advanced Custom Fields“.</p></div>';
+				});
+				return;
 			}
-
-			// 2. customize ACF dir
-			add_filter('acf/settings/dir', 'my_acf_settings_dir');
-			function my_acf_settings_dir($dir)
-			{
-				// update path
-				$dir = plugin_dir_url(__FILE__) . 'libs/acf/';
-				// return
-				return $dir;
-			}
-
-			// 3. Hide ACF field group menu item
-			add_filter('acf/settings/show_admin', '__return_false');
-
-			// 4. Include ACF
-			include_once('libs/acf/acf.php');
 		}
-
 		// --- LOAD FIELDS TO REGISTER: --- //
 
 		function cwd_acf_add_local_field_groups()
